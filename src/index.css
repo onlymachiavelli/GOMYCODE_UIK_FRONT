@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: quicksand ;
+  src: url('./assets/fonts/pop/Poppins-Regular.ttf');
+}
+html, body {
+  margin : 0;
+  padding : 0 ;
+}
+
+*{
+  outline : none ; 
+  text-decoration:  none ;
+  font-family: quicksand;
+ }
+
+
+
+.qs {
+  font-family: quicksand !important ;
+}
+
+
+.linear {
+  background: linear-gradient(99.52deg, #A33492 0%, #F76735 56.57%);
+}
+
+.noBG{
+  background:none !important;
+
+}
+
+::placeholder{
+  color:rgb(175, 175, 175) !important;
+}
+
+table , th{
+  border-collapse: collapse;
+  
+}
+table{
+  width: 100%;
+}
